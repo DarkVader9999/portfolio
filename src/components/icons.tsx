@@ -36,6 +36,33 @@ export const Icons = {
       <path d="M29.41,9.26a3.5,3.5,0,0,0-2.47-2.47C24.76,6.2,16,6.2,16,6.2s-8.76,0-10.94.59A3.5,3.5,0,0,0,2.59,9.26,36.13,36.13,0,0,0,2,16a36.13,36.13,0,0,0,.59,6.74,3.5,3.5,0,0,0,2.47,2.47C7.24,25.8,16,25.8,16,25.8s8.76,0,10.94-.59a3.5,3.5,0,0,0,2.47-2.47A36.13,36.13,0,0,0,30,16,36.13,36.13,0,0,0,29.41,9.26ZM13.2,20.2V11.8L20.47,16Z" />
     </svg>
   ),
+  resume: (props: IconProps) => (
+    <svg
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <title>Resume</title>
+
+      {/* Document */}
+      <path d="M8 3.5h11l6 6V27a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V5.5a2 2 0 0 1 2-2Z" />
+
+      {/* Folded corner */}
+      <path d="M19 3.5V10h6" />
+
+      {/* Profile */}
+      <circle cx="12.5" cy="15" r="2.4" />
+      <path d="M8.5 22c0-2.4 1.6-3.8 4-3.8s4 1.4 4 3.8" />
+
+      {/* Resume details */}
+      <path d="M19.5 15h3M19.5 19h3M10 25.5h12" />
+    </svg>
+  ),
   nextjs: (props: IconProps) => (
     <svg
       role="img"
